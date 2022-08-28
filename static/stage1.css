@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fbe5ff;
+}
+.b{
+    color: #f1b0fc;
+}
+.Head{
+    margin-left: 42vh;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    padding: 4rem;
+}
+.Head1{
+    position: absolute;
+    margin-left: 45rem;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    top: 17%;
+}
+.qn{
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+.div{
+    padding: 3rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    height: 15rem;
+    width: 75rem;
+    margin: 5rem;
+    padding-right: 5rem;
+    background-color: white;
+}
+.form-group{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 75rem;
+    height: 8rem;
+}
+.button{
+    background-color: rgb(219, 34, 34);
+    color: aliceblue;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 750px;
+}
+.button:hover{
+    background-color:rgb(227, 66, 74) ;
+}

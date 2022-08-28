@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\static\style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <img src="{{url_for('static',filename='dream-path.png')}}" alt="" class="logo">
+        <img src="{{url_for('static',filename='user (1).png')}}" class="a-icon" alt=""><a href="/admin"><button class="nav-coun"><p class="coun-txt">      Admin</p></button></a>
+    </div>
+    <div class="welcome">
+        <div class="front">
+            <div class="map"> 
+                <p class="map p">MAP YOUR </p>
+                <p class="z">FUTURE .</p>
+                <p class="expl-txt">We are a team of experienced professionals from varied backgrounds who facilitate the workshops and training programs. Since our inception in 2013, we have addressed over 20,000 students, conducted several career awareness workshops and are guiding many children one-on-one in career exploration and decision-making.</p>
+            </div>
+            <img src="{{url_for('static',filename='parent.jpg')}}" alt="" class="front-img">
+        </div>
+        <div class="info ">
+            <div class="siz">
+                <p class="num">200</p>
+                <p>WORKSHOPS</p>
+            </div>
+            <div class="siz"> 
+                <p class="num">20000</p>
+                <p>STUDENTS</p>
+            </div>
+            <div class="siz">
+                <p class="num">70</p>
+                <p>INSTITUTIONS</p>
+            </div>
+            <div class="siz">
+                <p class="num">150</p>
+                <p>COUNSELEES</p>
+            </div>
+        </div>
+    </div>
+    <div class="help">
+        <div class="rev">
+            <img src="{{url_for('static',filename='rev.jpg')}}"  class="front-img jik" alt="">
+            <div>
+                <h1 class="help-txt">HELP US TO </h1>
+                <h1 class="help-txt n">IMPROVE . .</h1>
+                <p class="res q">How to <b class="cl">respond</b> to feedback :</p>
+                <p class="res req"> <img src="{{url_for('static',filename='check-mark.png')}}" alt="" class="tick-icon"> Fill out all required fields</p>
+                <p class="res req"> <img src="{{url_for('static',filename='check-mark.png')}}" alt="" class="tick-icon"> Write about what you feel for the particular</p>
+                <p class="res req"><img src="{{url_for('static',filename='check-mark.png')}}" alt="" class="tick-icon"> Suggestions if any</p>
+                <p class="pick"><b class="Dom"> Pick your class </b>when you  attended  : </p>
+                <a href="/first">
+                    <button class="class"> Before 10th</button>
+                </a>
+                <a href="/second">
+                    <button class="class"> In 10th</button>
+                </a>    
+                <a href="/third">
+                    <button class="class">In 12th</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

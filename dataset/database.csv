@@ -1,0 +1,9 @@
+Timestamp,q1,q1s,q2,q2s,q3,q3s,q4,q4s,q5,q5s,q6,q6s,q7,q7s,q8,q8s,q9,q9s,q10,q10s,q11,q11s,q12,q12s
+02-09-2020 12:07,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0,bad,0
+08/28/2022 (00:21:21),bad,-1,good,1,bad,-1,good,1,bad,-1,good,1,bad,-1,good,1,bad,-1,good,1,bad,-1,good,1
+08/28/2022 (01:21:59),its not bad,-1.0,some of them,-1.0,no,-1.0,yes it was good it could have been better,1.0,yeah,1.0,yeah i have better clarity now,-1.0,definitely,1.0,sure,1.0,i guess so,1.0,i have more options now,-1.0,yes,1.0,the last presentation part,1.0
+08/28/2022 (01:22:02),its not bad,-1.0,some of them,-1.0,no,-1.0,yes it was good it could have been better,1.0,yeah,1.0,yeah i have better clarity now,-1.0,definitely,1.0,sure,1.0,i guess so,1.0,i have more options now,-1.0,yes,1.0,the last presentation part,1.0
+08/28/2022 (01:22:10),its not bad,-1.0,some of them,-1.0,no,-1.0,yes it was good it could have been better,1.0,yeah,1.0,yeah i have better clarity now,-1.0,definitely,1.0,sure,1.0,i guess so,1.0,i have more options now,-1.0,yes,1.0,the last presentation part,1.0
+08/28/2022 (05:48:48),good,1.0,goood,1.0,goood,1.0,bad,-1.0,not sure,-1.0,sure,1.0,good,1.0,bad,-1.0,bad,-1.0,bad,-1.0,bad,-1.0,bad,-1.0
+08/28/2022 (07:38:52),GOOD,1.0,NOT BAD,-1.0,GOOD,1.0,BAD,-1.0,NOT ALL A PROBLEM,-1.0,YES,1.0,NO,-1.0,NEUTRAL,0.0,NEUTRAL,0.0,GOOD,1.0,NEUTRAL,0.0,GOOD,1.0
+08/28/2022 (08:57:50),no,-1.0,yes,1.0,sure,1.0,sure,1.0,yes,1.0,no,-1.0,neutral,0.0,neutral,0.0,ok,0.0,pk,1.0,bad,-1.0,ok,0.0

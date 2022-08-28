@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fef9ff;
+}
+
+.welcome{
+    font-family: 'Cinzel', serif;
+    font-size: 10vh;
+    margin-left: 35vw;
+    margin-top: 7vh;
+}
+
+.pink{
+    color: #f1b0fc;
+}
+
+.analysis{
+    margin: 10vh;
+    font-size: 1.5vw;
+    margin-left: 27vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.class{
+    height: 4.5rem;
+    width: 10rem;
+    color: white;
+    background-color: #fba0f8;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 11rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.class:hover{
+    background-color: #aeaeae;
+}
+
+.btns{
+    margin-left: 20vh;
+}

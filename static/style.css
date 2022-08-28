@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #f09aff;
+    box-shadow: 2vh 2vh 25vh #ffbdfd;
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    
+}
+body{
+    background-color: #fef9ff;
+    
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.logo{
+    height: 11vh;
+    width: 15vw;
+    margin-left: 5vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.nav-coun{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 2.2vh; 
+    padding: 3vh;
+    margin-left: -2rem;
+    margin-top: 1.8rem;
+    background-color: #393939;
+    height: 1.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    border: none;
+}
+
+.nav-coun:hover{
+    background-color: #aeaeae;
+}
+.a-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left:60rem;
+    margin-top: 2rem;
+    /* margin-right: 0.1rem; */
+}
+
+.coun-txt{
+    padding: 0.1rem;
+    margin-top: -0.8rem;
+    margin-left: 0.1rem;
+}
+
+.welcome{
+    padding: 5rem;
+    border-radius: 1rem;
+}
+
+.map{
+    margin-top: 0.8rem;
+    margin-left: 4.5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+
+.front{
+    display: flex;
+}
+.p{
+   font-size: 4rem; 
+   margin-left: 0.3rem;
+   
+}
+
+.z{
+    font-size: 7rem;
+    margin-top: -0.2rem;
+    color: #f1b0fc;
+}
+
+.expl-txt{
+    font-size: 1.3rem;
+    margin-top: 0.6rem ;
+    width: 25.5rem;
+    margin-left: 2rem ;
+    color: #070707;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.front-img{
+    margin-top: -0.1rem;
+    margin-left: 12rem;
+    height: 40rem;
+    width: 40rem;
+    position: relative;
+    animation: animate 2s alternate infinite;
+}
+
+@keyframes animate{
+    from{
+        bottom: 0;
+        left: 0;
+    }
+    to{
+        bottom: 1rem;
+        left:0.5rem;
+    }
+}
+
+.info{
+    display: flex;
+    margin-top: -7.5rem;
+    font-size: 1rem;
+    margin-left: 1.3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.siz{
+    margin-left: 40px;
+}
+
+.num{
+    color:#f1b0fc ;
+    font-size: 1.4rem;
+}
+
+.help{
+    font-family: 'Cinzel', serif;
+    margin-top: 10rem;
+    
+}
+
+.rev{
+    display: flex;
+}
+
+.jik{
+    margin-left: 3rem;
+}
+
+.help-txt{
+    margin-top: 2rem;
+    margin-left: 11rem;
+    font-size: 4rem;
+}
+
+.n{
+    margin-top: 0.3rem;
+    margin-left: 23rem;
+    color: #f1b0fc;
+}
+
+.res{
+    margin-left: 18rem; 
+    margin-top: 2rem;  
+}
+.q{
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
+    margin-left: 8.1rem;
+}
+.cl{
+    color: #f1b0fc;
+}
+.req{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.tick-icon{
+    height:0.9rem;
+    width:0.9rem;
+    margin-right:1rem ;
+}
+
+.pick{
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.Dom{
+    color: #f1b0fc;
+}
+
+.class{
+    height: 3.5rem;
+    width: 9.4rem;
+    color: white;
+    background-color: #fba0f8;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.class:hover{
+    background-color: #aeaeae;
+}
